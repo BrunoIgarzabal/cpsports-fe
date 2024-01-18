@@ -1,0 +1,15 @@
+{
+  "name": "cp-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bruno Igarzabal <brunoigar@live.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
