@@ -26,6 +26,17 @@
     "@typescript-eslint"
   ],
   "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "space-before-function-paren": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-use-before-define": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "prettier/prettier": ["error", {
       "semi": false,
       "singleQuote": true,
@@ -40,7 +51,8 @@
         "^(.*)\\.css$",
         "^[./]"
       ],
-      "importOrderSeparation": true
+      "importOrderSeparation": true,
+      "importOrderSortSpecifiers": true
     }]
   }
 }
