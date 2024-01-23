@@ -1,7 +1,7 @@
 import { forwardRef } from 'react'
 import { ButtonBaseType, ButtonProps } from './types'
 import { VariantProps, tv } from 'tailwind-variants'
-import { SpinnerIcon } from '../Icons'
+import { SpinnerIcon } from '@cp/ui/components/Icons'
 
 const variants = tv({
   base: 'flex items-center justify-center font-medium rounded transition duration-100 delay-100 hover:delay-100',
